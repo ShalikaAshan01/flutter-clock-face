@@ -1,15 +1,55 @@
-# Flutter Clock
+# Flutter Clock Face
 
-Welcome to Flutter Clock!
+Welcome to Flutter Digital Clock!
 
-See [flutter.dev/clock](https://flutter.dev/clock) for how to get started, submission requirements, contest rules, and FAQs.
+This is a flutter based digital clock for [flutter clock challenge](https://flutter.dev/clock)
 
-See a [live demo](https://maryx.github.io/flutter_clock) with Flutter for Web!
+# Screenshots 
 
-Example [Analog Clock](analog_clock)
+## Dark mode
 
-<img src='analog_clock/analog.gif' width='350'>
+<img src='screenshots/dark-cloudy-night.jpg' width='350'>
 
-Example [Digital Clock](digital_clock)
+## Light mode
 
-<img src='digital_clock/digital.gif' width='350'>
+<img src='screenshots/light-morning.jpg' width='350'> <img src='screenshots/light-afternoon.jpg' width='350'>
+<img src='screenshots/light-evening.jpg' width='350'> <img src='screenshots/light-night.jpg' width='350'>
+
+# Weather Conditions
+
+```diff
+- There are more backgrround images for each weather conditions. 
++ i.e: cloudy weather animation for every light mode backgrounds
+```
+## Cloudy
+
+<img src='screenshots/dark-cloudy-night.jpg' width='350'> 
+
+## Sunny
+
+<img src='screenshots/light-morning.jpg' width='350'> <img src='screenshots/dark-sunny-night.jpg' width='350'> 
+
+## Foggy
+
+<img src='screenshots/dark-foggy.jpg' width='350'> 
+
+## Snowy
+
+<img src='screenshots/dark-cloudy-night.jpg' width='350'> 
+
+## Rainy
+
+<img src='screenshots/light-rainy-evening.jpg' width='350'> <img src='screenshots/dark-rainy-night.jpg' width='350'> 
+
+## Snowy
+
+<img src='screenshots/light-evening-snowy.jpg' width='350'> 
+
+## Windy
+
+<img src='screenshots/light-evening-winy.jpg' width='350'> 
+
+## Thunderstrom
+
+<img src='screenshots/light-thunder-night.jpg' width='350'> 
+
