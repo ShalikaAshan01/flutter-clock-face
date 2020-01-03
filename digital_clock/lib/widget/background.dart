@@ -19,6 +19,20 @@ class Background extends StatelessWidget {
       : super(key: key);
   @override
   Widget build(BuildContext context) {
+    //In flutter web custom painter not showing because of decoration image, there for decoration image removed, (flutter web issue https://stackoverflow.com/questions/59161020/how-to-paint-triangle-foreground-of-the-backgroundimage-flutter-web)
+    if (kIsWeb)
+      return AnimatedContainer(
+        alignment: Alignment.center,
+        duration: Duration(milliseconds: 1000),
+        child: child,
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [colorPrimary, colorSecondary],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+        ),
+      );
     if (!lightMode)
       return AnimatedContainer(
         alignment: Alignment.center,
