@@ -1,0 +1,5 @@
+[sunrise] Photo by Simon Matzinger from Pexels
+[night] Photo by Lucas França from Pexels
+[sunset] Photo by Александр Прокофьев from Pexels
+[cloudy] Photo by Johannes Rapprich from Pexels
+[dark]Photo by Francesco Ungaro from Pexels--dark
