@@ -256,7 +256,7 @@ class _DigitalClockState extends State<DigitalClock> {
       flarePadding = flareSize * 0.25;
     }
     if (_weatherCondition == WeatherCondition.thunderstorm) {
-      flareSize = flareSize * 1.4;
+      flareSize = flareSize / 1.4;
       flarePadding = flareSize * 0.1;
     }
 
