@@ -143,12 +143,16 @@ class _DigitalClockState extends State<DigitalClock> {
     });
     final hour = int.parse(DateFormat('HH').format(_dateTime));
 
-    String background = "third_party/img/night.jpg";
-    _day now = _day.night;
-    if (hour <= 11 && hour>=5) {
-      now = _day.morning;
+    String background = "third_party/img/sunrise.jpg";
+    _day now = _day.morning;
+
+    if (hour > 18 || hour < 4) {
+      now = _day.night;
+      background = "third_party/img/night.jpg";
+    } else if (hour < 12) {
       background = "third_party/img/sunrise.jpg";
-    } else if (hour <= 16) {
+      now = _day.morning;
+    } else if (hour <= 15) {
       now = _day.afternoon;
       background = "third_party/img/cloudy.jpg";
     } else if (hour <= 18) {
