@@ -19,19 +19,6 @@ class Background extends StatelessWidget {
       : super(key: key);
   @override
   Widget build(BuildContext context) {
-    if (kIsWeb)
-      return AnimatedContainer(
-        alignment: Alignment.center,
-        duration: Duration(milliseconds: 1000),
-        child: child,
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Color(0xFF28313B), Color(0xFF485461)],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
-        ),
-      );
     if (!lightMode)
       return AnimatedContainer(
         alignment: Alignment.center,
