@@ -4,6 +4,8 @@ Welcome to Flutter Digital Clock!
 
 This is a flutter based digital clock for [flutter clock challenge](https://flutter.dev/clock)
 
+
+[Live demo](https://shalikaashan01.github.io/flutter-digital-clock/#/) (This is not the exact look of clock face. Background image is not showing in web preview)
 # Features
 
 * Dark Mode and Light Mode
