@@ -4,7 +4,7 @@
 
 import 'dart:async';
 
-import 'package:digital_clock/widget/Background.dart';
+import 'package:digital_clock/widget/background.dart';
 import 'package:digital_clock/widget/clock_thick.dart';
 import 'package:digital_clock/widget/flare_animation.dart';
 import 'package:digital_clock/widget/time_widget.dart';
@@ -308,7 +308,7 @@ class _DigitalClockState extends State<DigitalClock> {
                   child: AnimatedOpacity(
                       duration: Duration(seconds: 1),
                       opacity: widget.model.is24HourFormat ? 0 : 1,
-                      child: Text(format, style: defaultStyle2)))
+                      child: Text(format, style: defaultStyle2))),
             ],
           ),
         ));
