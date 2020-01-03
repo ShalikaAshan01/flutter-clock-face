@@ -4,6 +4,13 @@ Welcome to Flutter Digital Clock!
 
 This is a flutter based digital clock for [flutter clock challenge](https://flutter.dev/clock)
 
+# Features
+
+* Dark Mode and Light Mode
+* 4 Different background for light mode
+* Animation for Weather conditions
+* Diffrent weather animations for day and night (except: thunderstorm,snowy,windy,foggy)
+
 # Screenshots 
 
 ## Dark mode
